@@ -179,6 +179,7 @@ class _DatePicksState extends State<DatePicks> {
       child: Material(
         child:  CupertinoDatePicker(
           initialDateTime: DateTime.now(),
+          maximumDate: DateTime.now(),
           mode: CupertinoDatePickerMode.date,
           use24hFormat: true,
           // This is called when the user changes the date.
